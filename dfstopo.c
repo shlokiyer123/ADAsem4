@@ -17,6 +17,7 @@ int main()
     }
     return 0;
 }
+//mark all as unvisited and call the main dfs function for the unvisited
 void dfs_tp(int n,int a[][10])
 {
     for(int i=0;i<n;i++)
@@ -27,6 +28,7 @@ void dfs_tp(int n,int a[][10])
                 dfs(j,n,a);
         }
 }
+//marks the called vertex and increments stack
 void dfs(int j,int n,int a[][10])
 {
     s[j]=1;
