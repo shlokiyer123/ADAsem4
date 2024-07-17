@@ -28,7 +28,7 @@ void dfs_tp(int n,int a[][10])
                 dfs(j,n,a);
         }
 }
-//marks the called vertex and increments stack
+//marks the called vertex and increments stackzaza
 void dfs(int j,int n,int a[][10])
 {
     s[j]=1;
